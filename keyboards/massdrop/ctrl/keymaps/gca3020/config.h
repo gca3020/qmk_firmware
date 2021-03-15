@@ -7,6 +7,17 @@
 
 // #define IS_COMMAND() (get_mods() == MOD_MASK_SHIFT)      // Key combination that allows the use of magic commands (useful for debugging)
 
+// Modify default debounce settings to help reduce switch chatter (particularly on spacebar)
+// See: https://drop.com/buy/drop-ctrl-mechanical-keyboard/talk/2486241
+// Note that this debounce is in milliseconds
+#ifdef DEBOUNCE
+#undef DEBOUNCE
+#define DEBOUNCE 10
+#endif
+
+// Increase the matrix IO delay (in microseconds) to also help switch chatter
+#define MATRIX_IO_DELAY 40
+
 // #define NO_DEBUG                    // Disable debugging
 // #define NO_PRINT                    // Disable printing/debugging using hid_listen
 // #define NO_ACTION_LAYER             // Disable layers
