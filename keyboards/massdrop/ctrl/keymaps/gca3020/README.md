@@ -16,6 +16,10 @@ This keymap is here to show some love to the MD Ctrl.
 
 These are the features currently supported by this keymap:
 
+### Debounce
+
+Leveraged additional debounce and matrix scan time to resolve key chatter observed on this board.
+
 ### Tapdance Keys
 
 Not really a feature. I just want to document what tapdance keys this keymap has because there will be many of them.

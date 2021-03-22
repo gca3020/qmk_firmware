@@ -16,7 +16,7 @@
 #endif
 
 // Increase the matrix IO delay (in microseconds) to also help switch chatter
-#define MATRIX_IO_DELAY 40
+#define MATRIX_IO_DELAY 30
 
 // #define NO_DEBUG                    // Disable debugging
 // #define NO_PRINT                    // Disable printing/debugging using hid_listen
@@ -24,13 +24,13 @@
 // #define NO_ACTION_TAPPING           // Disable tap dance and other tapping features
 // #define NO_ACTION_ONESHOT           // Disable one-shot modifiers
 // #define NO_ACTION_MACRO             // Disable old style macro handling: MACRO() & action_get_macro
-#define TERMINAL_HELP
-#define MOUSEKEY_INTERVAL 20
-#define MOUSEKEY_DELAY 0
-#define MOUSEKEY_TIME_TO_MAX 60
-#define MOUSEKEY_MAX_SPEED 10
-#define MOUSEKEY_WHEEL_DELAY 0
-#define FORCE_NKRO                  // NKRO by default requires to be turned on, this forces it on during keyboard startup regardless of EEPROM setting. NKRO can still be turned off but will be turned on again if the keyboard reboots.
+// #define TERMINAL_HELP
+// #define MOUSEKEY_INTERVAL 20
+// #define MOUSEKEY_DELAY 0
+// #define MOUSEKEY_TIME_TO_MAX 60
+// #define MOUSEKEY_MAX_SPEED 10
+// #define MOUSEKEY_WHEEL_DELAY 0
+// #define FORCE_NKRO                  // NKRO by default requires to be turned on, this forces it on during keyboard startup regardless of EEPROM setting. NKRO can still be turned off but will be turned on again if the keyboard reboots.
 // #define QMK_KEYS_PER_SCAN 4         // Allows sending more than one key per scan. By default, only one key event gets sent via process_record() per scan. This has little impact on most typing, but if you're doing a lot of chords, or your scan rate is slow to begin with, you can have some delay in processing key events. Each press and release is a separate event. For a keyboard with 1ms or so scan times, even a very fast typist isn't going to produce the 500 keystrokes a second needed to actually get more than a few ms of delay from this. But if you're doing chording on something with 3-4ms scan times? You probably want this.
 // #define STRICT_LAYER_RELEASE        // Force a key release to be evaluated using the current layer stack instead of remembering which layer it came from (used for advanced cases)
 // #define LOCKING_SUPPORT_ENABLE      // Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap
