@@ -25,6 +25,8 @@
 #define PURPLE {HSV_PURPLE}
 #define MAGENT {HSV_MAGENTA}
 #define PINK {HSV_PINK}
+#define WHITE {HSV_WHITE}
+#define TRANS {1, 1, 1}
 
 extern rgb_config_t rgb_matrix_config;
 
@@ -46,4 +48,5 @@ enum ctrl_keycodes {
     DBG_MOU,               // DEBUG Toggle Mouse Prints
     MD_BOOT,               // Restart into bootloader after hold timeout
     TERMINAL,              // CTRL+ALT+T
+    SSH_ESC,               // ENTER+~+.
 };
