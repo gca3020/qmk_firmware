@@ -16,7 +16,7 @@
 #endif
 
 // Increase the matrix IO delay (in microseconds) to also help switch chatter
-#define MATRIX_IO_DELAY 30
+#define MATRIX_IO_DELAY 40
 
 // #define NO_DEBUG                    // Disable debugging
 // #define NO_PRINT                    // Disable printing/debugging using hid_listen
